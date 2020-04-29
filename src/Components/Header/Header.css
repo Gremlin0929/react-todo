@@ -1,0 +1,39 @@
+.todo-header {
+  width: 100%;
+  background-color: #fff;
+}
+
+.todo-header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.todo-header .header-left {
+  display: flex;
+  align-items: center;
+}
+
+.todo-header .header-right {
+  display: flex;
+  align-items: center;
+}
+
+.todo-header .header-right .description {
+  font-style: oblique;
+  font-weight: bold;
+  color: #61dafb;
+}
+
+.todo-header .todo-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.todo-header .todo-title {
+  font-size: 18px;
+  font-weight: bolder;
+}

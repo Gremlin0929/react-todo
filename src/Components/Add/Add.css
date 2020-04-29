@@ -1,0 +1,31 @@
+.add-todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  height: 45px;
+  position: fixed;
+  left: 50%;
+  bottom: 100px;
+  margin-left: -400px;
+  padding: 0 20px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+  overflow: hidden;
+  background-color: #282c34;
+  color: #fff;
+}
+
+.add-todo .add-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.add-todo .todo-text {
+  width: calc(100% - 40px);
+  height: 100%;
+  border: none;
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+}
